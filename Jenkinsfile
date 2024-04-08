@@ -2,7 +2,7 @@ node("yasha"){
      stage('Checkout') {
             steps {
                 // Checkout the code from your Git repository
-                bat 'git clone https://github.com/your-username/your-repository.git'
+                bat 'https://github.com/Yasha12345656786/MySoftware2.git'
             }
             }
      stage('Push Changes') {
