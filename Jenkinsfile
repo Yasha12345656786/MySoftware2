@@ -9,7 +9,6 @@ node("yasha") {
 
     }
     stage('Push Changes') {
-        bat "ls -l"
         bat 'git push origin main'
     }
 }
