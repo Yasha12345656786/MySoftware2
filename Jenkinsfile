@@ -1,7 +1,7 @@
 node("yasha") {
     stage('Checkout') {
         steps {
-            bat 'https://github.com/Yasha12345656786/MySoftware2.git'
+           git branch: 'main', url: 'https://github.com/Yasha12345656786/MySoftware2.git'
         }
     }
 
