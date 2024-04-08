@@ -8,6 +8,6 @@ node("yasha"){
      stage('Push Changes') {
            steps {
                // Push the changes to the remote repository
-               bat 'git push origin master'
+               bat 'git push origin main'
            }
 }
