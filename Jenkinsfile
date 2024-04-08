@@ -1,4 +1,4 @@
-node("yash"){
+node("yasha"){
      stage('Checkout') {
             steps {
                 // Checkout the code from your Git repository
