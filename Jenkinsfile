@@ -6,10 +6,7 @@ node("yasha") {
     }
 
     stage('Push Changes') {
-        steps {
-            dir('MySoftware2') {
-                bat 'git push origin main'
-            }
-        }
+        bat "ls -l"
+        bat 'git push origin main'
     }
 }
